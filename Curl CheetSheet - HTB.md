@@ -1,3 +1,5 @@
+curl is a computer software project providing a library (libcurl) and command-line tool (curl) for transferring data using various network protocols.
+
 | **Command** | **Description** |
 | --------------|-------------------|
 | `curl -h` | cURL help menu |
