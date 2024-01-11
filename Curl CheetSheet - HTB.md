@@ -1,5 +1,3 @@
-## cURL
-
 | **Command** | **Description** |
 | --------------|-------------------|
 | `curl -h` | cURL help menu |
