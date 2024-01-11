@@ -1,3 +1,5 @@
+Web servers are primarily used to process and manage HTTP/HTTPS requests and responses from the client system. A web server can also perform several other functions, such as: Store and protect website data: A web server can store and protect critical website data from unauthorized users.
+
 Each of these commands will run an ad hoc http static server in your current (or specified) directory, available at http://localhost:8000. Use this power wisely.
 
 ### Python 2.x
