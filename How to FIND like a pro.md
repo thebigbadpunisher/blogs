@@ -4,7 +4,10 @@ The find command in Linux is a godlike tool for not only searching and locating 
 
 The basic structure of the `find` command is:
 
+
 **find [starting_directory] [options] [expression]**
+
+
 
 - **starting_directory**: Specifies the directory to start the search. If omitted, it starts from the current directory and dig deep to it's all subdirectories.
 
