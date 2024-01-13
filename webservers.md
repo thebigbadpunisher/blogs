@@ -146,6 +146,8 @@ Credit: [/u/fjantomen](http://www.reddit.com/r/webdev/comments/1fs45z/list_of_ad
 If you have any suggestions, drop them in the comments below or on the reddit discussion. To get on this list, a solution must:
 
 1. serve static files using your current directory (or a specified directory) as the server root,
+
+
 2. be able to be run with a single, one line command (dependencies are fine if they're a one-time thing),
 3. serve basic file types (html, css, js, images) with proper mime types,
 4. require no configuration (from files or otherwise) beyond the command itself (no framework-specific servers, etc)
