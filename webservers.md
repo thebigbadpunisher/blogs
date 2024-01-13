@@ -141,7 +141,7 @@ Credit: [/u/fjantomen](http://www.reddit.com/r/webdev/comments/1fs45z/list_of_ad
 
 *No directory listings. `/path` must be an absolute path.*
 
-# Meta
+# Beta
 
 If you have any suggestions, drop them in the comments below or on the reddit discussion. To get on this list, a solution must:
 
