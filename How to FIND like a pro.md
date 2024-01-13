@@ -17,6 +17,8 @@ The basic structure of the `find` command is:
 
 ## 1.1 Options Available
 1. `-name`: Specifies the filename or pattern to search for.
+
+
 2. `-type`: Specifies the type of file (e.g., `f` for regular file, `d` for directory).
 3. `-exec`: Executes a command on the found files/directories.
 4. `-size`: Specifies the size of files to search for.
