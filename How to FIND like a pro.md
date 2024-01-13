@@ -30,9 +30,7 @@ The basic structure of the `find` command is:
 
 To find files named "example.txt" in the current directory and its subdirectories:
 
-```bash
-find . -name example.txt
-```
+```bash find . -name example.txt```
 
 But this will find the exact match `example.txt` starting from current directory to every sub-directory inside it but searching for file using word like `example` will not find `example.txt`. A work around to find a file that may contains a specific word is by using * . For eg :
 
