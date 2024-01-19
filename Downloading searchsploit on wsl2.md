@@ -2,6 +2,9 @@ On *nix systems, all you really need is either “CoreUtils” or “utilities�
 You can easily check out the git repository by running the following:
 
 
+
+
+
 ```text
 $ git clone https://github.com/offensive-security/exploitdb.git /opt/exploit-database
 ```
