@@ -1,13 +1,19 @@
 Here is a story of an interesting bug I found on one of my target. Though it was a duplicate, it was a very nice finding. After hunting for few days in the main application of the target, I found nothing but few duplicates. Then I decided to go for it's subdomains. Here are some commands I used:
 
 - Basic enumeration using [subfinder](https://github.com/projectdiscovery/subfinder):
- subfinder -d target[.]com -o all-domains.txt
+```
+subfinder -d target[.]com -o all-domains.txt
+```
 
 - Basic enumeration using [assetfinder](https://github.com/tomnomnom/assetfinder):
- echo "target[.]com" | assetfinder | tee -a all-domains.txt
+```
+echo "target[.]com" | assetfinder | tee -a all-domains.txt
+```
 
 - Active scan using [amass](https://github.com/owasp-amass/amass):
- amass enum -d target[.]com | tee -a amass.txt
+```
+amass enum -d target[.]com | tee -a amass.txt
+```
 
 - Using permutations with [dnsgen](https://github.com/AlephNullSK/dnsgen) and resolving them with [massdns](https://github.com/blechschmidt/massdns):
  ```
